@@ -29,6 +29,9 @@ html {
 /* Navigation Section*/
 .top-navigation{
 	background-color: white;
+	position: fixed;
+    width: 100%;
+    z-index: 9999;
 
 
 }
@@ -130,5 +133,43 @@ button:hover {
     background-color: #d9400e;
     border-color: #cf3d0e;
     cursor: pointer;
+}
+
+/*Cases section*/
+
+.cases {
+	background-color: white;
+	/*Why */
+	overflow: hidden;
+}
+
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+.cases .content{
+	margin-top: 7.875rem;
+    color: #1d1e21;
+    text-align: center;
+}
+
+ul {
+
+	list-style: none;
+}
+
+.cases .devices > li{
+    width: 33.3333333%;
+    float: left;
+    border: 1px solid Chocolate;
+
+}
+.cases .devices h3 {
+	font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+
+
 }
 
