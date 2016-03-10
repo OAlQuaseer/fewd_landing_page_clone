@@ -1,14 +1,7 @@
 body {
-
-	background-color: LightGray;
+    
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
-}
-
-div {
-
-	border: 1px solid Chocolate;
-
 }
 
 html {
@@ -162,7 +155,6 @@ ul {
 .cases .devices > li{
     width: 33.3333333%;
     float: left;
-    border: 1px solid Chocolate;
 
 }
 .cases .devices h3 {
@@ -172,4 +164,49 @@ ul {
 
 
 }
+
+ /*footer*/
+
+ .social{
+
+ 	background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+ }
+.social .icons > li {
+	border: 1px solid #eaebec;
+    border-radius: 1.25rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    display: inline-block;
+    padding: 0.625rem 0;
+    margin: 1.25rem 5px;
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+
 
